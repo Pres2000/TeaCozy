@@ -1,0 +1,115 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: seashell;
+}
+
+.mission-container {
+    background-image: url("/assets/images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1600px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.featured-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: centered;
+    justify-content: center;
+}
+
+.feature img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.location-container {
+    background-image: url('/assets/images/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    max-width: 1600px;
+    margin: 40px auto 40px auto;
+}
+
+.text-top {
+    padding-top: 50px;
+}
+
+.box-container {
+    display: flex;
+    align-items: centered;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-section {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
